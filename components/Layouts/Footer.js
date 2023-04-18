@@ -21,7 +21,10 @@ class Footer extends Component {
                                         </Link>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>
+                                        Loremmbcb nc norem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                                    </p>
 
                                     <ul className="social-links">
                                         <li>
