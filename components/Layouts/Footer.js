@@ -22,7 +22,7 @@ class Footer extends Component {
                                     </div>
 
                                     <p>
-                                        Loremmbcb nc norem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        ZiggyFlow to providing our clients with exceptional customer service and support, ensuring that they have access to the resources they need to succeed online
 
                                     </p>
 

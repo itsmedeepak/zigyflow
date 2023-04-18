@@ -38,7 +38,11 @@ class About extends Component {
                                 <div className="about-content about-content-two">
                                     <div className="section-title">
                                         <h2>About Us</h2>
-                                        <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+
+                                        <p>
+                                            Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.
+
+                                        </p>
                                     </div>
 
                                     <div className="about-text">
@@ -48,7 +52,7 @@ class About extends Component {
 
                                     <div className="about-text">
                                         <h4>Our History</h4>
-                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the.</p>
+                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I </p>
                                     </div>
 
                                     <div className="about-text">
