@@ -12,7 +12,7 @@ class Error extends Component {
                 
                 <PageBanner 
                     pageTitle="404 Error" 
-                    BGImage="bg-thre"
+                    BGImage="bg-three"
                 />  
 
                 <ErrorContent />
