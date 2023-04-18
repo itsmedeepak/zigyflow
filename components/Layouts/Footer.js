@@ -131,13 +131,20 @@ class Footer extends Component {
 
                                             
                                         </li>
+
+                                        <li>
+
+
+                                        </li>
                                         <li>
                                             <i className="icofont-live-support"></i> 
-                                            <a href="tel:+324-9442-515">+324-9442-515</a>
+                                            <a href="tel:+324-9442-515">
+                                                 +91 8404880436
+                                                </a>
                                         </li>
                                         <li>
                                             <i className="icofont-envelope"></i> 
-                                            <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                                            <a href="admin@zigyflow.com">admin@zigyflow.com</a>
                                         </li>
                                     </ul>
                                 </div>
