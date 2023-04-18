@@ -38,22 +38,34 @@ class About extends Component {
                                 <div className="about-content about-content-two">
                                     <div className="section-title">
                                         <h2>About Us</h2>
-                                        <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+
+                                        <p>
+                                            ZiggyFlow is focused on helping small local businesses succeed in the digital age. We understand the challenges that these businesses face, from limited resources to intense competition from online marketplaces and e-commerce giants. 
+
+                                        </p>
                                     </div>
 
                                     <div className="about-text">
                                         <h4>Who We Are</h4>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        <p>
+                                           Ziggy Flow understand the challenges that small local businesses face in today's competitive digital landscape. With the rise of e-commerce and online marketplaces, it's becoming increasingly difficult for small businesses to stay relevant and competitive.
+
+                                            </p>
                                     </div>
 
                                     <div className="about-text">
                                         <h4>Our History</h4>
-                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+                                        <p>
+                                           ZiggyFlow was founded with a clear mission in mind  to help small local businesses succeed online. We recognized the challenges that these businesses faced in the rapidly evolving digital landscape and saw an opportunity to provide them with innovative and effective software solutions that could help them scale and grow.
+
+                                            </p>
                                     </div>
 
                                     <div className="about-text">
                                         <h4>Our Mission</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+                                        <p>
+                                            Our mission is to empower these businesses by providing them with innovative and effective software solutions that help them scale and succeed online
+                                            </p>
                                     </div>
                                 </div>
                             </div>

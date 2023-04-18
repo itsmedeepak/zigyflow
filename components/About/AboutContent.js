@@ -60,7 +60,7 @@ class About extends Component {
                                         <ul>
                                             <li>
                                                 <i className="pe-7s-check"></i> 
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Our mission is to empower these businesses by providing them with innovative and effective software solutions that help them scale and succeed onlin
                                             </li>
                                             <li>
                                                 <i className="pe-7s-check"></i> 
