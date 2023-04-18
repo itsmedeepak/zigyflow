@@ -22,7 +22,7 @@ class Footer extends Component {
                                     </div>
 
                                     <p>
-                                        ZiggyFlow to providing our clients with exceptional customer service and support, ensuring that they have access to the resources they need to succeed online
+                                        ZiggyFlow to providing our clients with exceptional customer service and support, ensuring that they have access to the resources they need to succeed onlin
 
                                     </p>
 
@@ -124,7 +124,13 @@ class Footer extends Component {
                                     <h3>Get in Touch</h3>
 
                                     <ul className="get-in-touch">
-                                        <li><i className="icofont-home"></i> 2750 Quadra Street Victoria, Canada.</li>
+                                        <li><i className="icofont-home"></i>Bhubaneswar India
+                                        </li>
+
+                                        <li>
+
+                                            
+                                        </li>
                                         <li>
                                             <i className="icofont-live-support"></i> 
                                             <a href="tel:+324-9442-515">+324-9442-515</a>
