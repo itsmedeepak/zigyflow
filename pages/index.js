@@ -17,7 +17,6 @@ import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 class DefaultHome2 extends Component {
     render() {
         return (
-        
             <>
                 <Navbar />
 
