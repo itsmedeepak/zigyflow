@@ -22,7 +22,7 @@ class Footer extends Component {
                                     </div>
 
                                     <p>
-                                        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        Loremmbcb nc norem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                                     </p>
 
