@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
+import Navbar from '../components/Layouts/Navbar';
+
 import PageBanner from '../components/Common/PageBanner';
 import ContactInfo from '../components/Contact/ContactInfo';
 import ContactForm from '../components/Contact/ContactForm';
 import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
+import ContactServices from '../components/Contact/ContactServices';
+import ServicesWeProvide from '../components/Contact/ServicesWeProvide';
+import ProjectDetails from '../components/Contact/ProjectDetails';
+
 
 class Contact extends Component {
     render() {
@@ -13,17 +19,31 @@ class Contact extends Component {
                 <NavbarTwo />
 
                 <PageBanner 
-                    pageTitle="Contact Us" 
+                    pageTitle="Let's Get This Rolling!" 
                     BGImage="bg-one"
                 />  
 
-                <ContactInfo />
+                {/* <ContactInfo /> */}
                 
                 <ContactForm />
 
-                <div className="ptb-100">
-                    <Newsletter />
+
+                 <div  className='contactservices'> 
+                <ContactServices/>
                 </div>
+
+                 <div  className='contactservices'> 
+                <ServicesWeProvide/>
+                </div>
+
+
+                 <ProjectDetails />
+
+
+
+                {/* <div className="ptb-100">
+                    <Newsletter />
+                </div> */}
 
                 <Footer/>
             </>

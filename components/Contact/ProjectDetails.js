@@ -18,10 +18,10 @@ const alertContent = () => {
 
 // Form initial state
 const INITIAL_STATE = {
-    name: "",
-    email: "",
-    number: "",
-    subject: "",
+    Project_Budget : "",
+    Project_Deadline: "",
+    Your_Message: "",
+    How_did_you_hear_about_us: "",
     text: ""
 };
 
@@ -61,14 +61,14 @@ const ContactForm = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div> Name  <span>*</span> </div>
+                            <div> Project Budget  <span>*</span> </div>
                              <br></br>
                             <div className="form-group">
                             
                                 <input 
                                     type="text" 
                                     name="name" 
-                                    placeholder="Name" 
+                                    placeholder=" Our Project start at minimum 1.5 Lacs" 
                                     className="form-control" 
                                     value={contact.name}
                                     onChange={handleChange} 
@@ -79,13 +79,13 @@ const ContactForm = () => {
                          <br></br>
 
                         <div className="col-lg-6">
-                             <div> Email  <span>*</span> </div>
+                             <div> Project DeadLine <span>*</span> </div>
                               <br></br>
                             <div className="form-group">
                                 <input 
                                     type="text" 
                                     name="email" 
-                                    placeholder="Email" 
+                                    placeholder="Tell us in in terms of month" 
                                     className="form-control" 
                                     value={contact.email}
                                     onChange={handleChange} 
@@ -94,32 +94,21 @@ const ContactForm = () => {
                             </div>
                         </div>
                          <br></br>
-                        <div className="col-lg-6">
-                             <div> Company Name  <span>*</span></div>
-                                                      <br></br>
 
-                            
-                            <div className="form-group">
-                                <input 
-                                    type="text" 
-                                    name="number" 
-                                    placeholder="Phone number" 
-                                    className="form-control" 
-                                    value={contact.number}
-                                    onChange={handleChange} 
-                                    required 
-                                />
-                            </div>
-                        </div>
+                        
+
                          <br></br>
+
                         <div className="col-lg-6">
-                             <div> Contact Number  <span>*</span> </div> 
+                             <div> How did you hear about us <span>*</span> </div> 
                               <br></br>
                             <div className="form-group">
-                                <input 
+                                <textarea 
                                     type="text" 
-                                    name="subject" 
-                                    placeholder="Contact Number" 
+                                    name="Your Message" 
+                                    placeholder="Let us Know about Your Project" 
+                                    cols="30" 
+                                    rows="6" 
                                     className="form-control" 
                                     value={contact.subject}
                                     onChange={handleChange} 
@@ -127,6 +116,32 @@ const ContactForm = () => {
                                 />
                             </div>
                         </div>
+                         
+                         <br></br>
+
+
+                         <div className="col-lg-6">
+                             <div> How did you hear about us  <span>*</span></div>
+                                                      <br></br>
+
+                            
+                            <div className="form-group">
+                                <input 
+                                    type="text" 
+                                    name="number" 
+                                    placeholder="Tell Your Sources" 
+                                    className="form-control" 
+                                    value={contact.number}
+                                    onChange={handleChange} 
+                                    required 
+                                />
+                            </div>
+                        </div>
+
+                         <br></br>
+                          
+
+
 
                         {/* <div className="col-lg-12 col-md-12">
                             <div className="form-group">
@@ -143,11 +158,11 @@ const ContactForm = () => {
                             </div>
                         </div> */}
 
-                        {/* <div className="col-lg-12 col-sm-12">
+                        <div className="col-lg-12 col-sm-12">
                             <button type="submit" className="btn btn-primary">
-                                Send Message
+                                Connect With Us
                             </button>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                  <br></br>

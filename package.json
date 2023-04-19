@@ -4,7 +4,7 @@
     "description": "ZigyFlow is likely a company that values innovation and creativity, with a focus on creating engaging and impactful digital experiences for its clients. Your team may be made up of skilled designers, marketers, and developers who work together to deliver high-quality results to your clients.",
     "main": "index.js",
     "scripts": {
-        "dev": " set PORT 3000 && next dev",
+        "dev": " next ",
         "build": "next build",
         "start": "next start"
     },
@@ -20,6 +20,7 @@
         "react": "^17.0.2",
         "react-accessible-accordion": "^3.3.5",
         "react-dom": "^17.0.2",
+        "react-icons": "^4.8.0",
         "react-image-lightbox": "^5.1.4",
         "react-modal-video": "^1.2.8",
         "react-owl-carousel3": "^2.2.5",

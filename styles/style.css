@@ -43,6 +43,10 @@ This files table contents are outlined below >>>>>
 ** - Go Top CSS
 */
 /* Default CSS */
+
+/* *{
+  box-sizing: border-box;
+} */
 body {
   padding: 0;
   margin: 0;
@@ -50,6 +54,11 @@ body {
   font-size: 16px;
   color: #646464;
 }
+
+/* .reacticons{
+ 
+ 
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Saira", sans-serif;
@@ -4964,16 +4973,47 @@ Page Title CSS
 =================================================*/
 .page-title-area {
   position: relative;
-  padding-top: 230px;
-  padding-bottom: 160px;
-  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  height: 0%;
+  /* text-align: center; */
 }
 
-.page-title-area h2 {
+.d-table1{
+  
+  width: 80%;
+  margin-top: 1rem;
+  margin: auto;
+  padding: 2rem;
+    
+}
+
+.column span{
+ height: 5%;
+ width: 5%;
+ background-color: #00d280;
+}
+
+.d-table1 h2 {
   margin: 0;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 35px;
+  
 }
+
+.d-table1 p {
+ 
+  font-size: 2.1rem;
+  
+}
+
+
+
+
+/* .page-title-area
+{
+background-color: #00d280;
+} */
 
 .page-title-area::before {
   content: '';
@@ -4982,13 +5022,39 @@ Page Title CSS
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   opacity: .80;
 }
 
-.page-title-area .container {
-  position: relative;
+.d-table1 .container {
+
+  display: block;
+  }
+
+.d-table1.container> * {
+    padding:1rem;
 }
+
+@media (min-width:768px) {
+    .d-table1 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .d-table1.column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+ 
 
 .page-title-area.bg-one {
   background: transparent url(/images/page-banner1.jpg) right top no-repeat;
@@ -5019,6 +5085,8 @@ Page Title CSS
   background-position: center center;
   background-size: cover;
 }
+
+
 
 .shape1 {
   position: absolute;
@@ -5238,6 +5306,67 @@ Contact CSS
   position: relative;
 }
 
+.contactservices
+{
+  margin-left: 5rem;
+  color: #18181b;
+  font-size: larger;
+  margin-bottom: 2rem;
+}
+
+.contactServices span
+{
+color: red;
+}
+
+.contactServicesbox
+{
+ width: 100%;
+display: flex;
+/* justify-content: space-around; */
+  /* display: flex; */
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contactServicesbox div
+{
+ /* margin: 10rem; */
+ /* width: 20%;
+ height: 10rem;  */
+ /* padding: 5 rem; */
+
+   
+ 
+ box-sizing: border-box;
+}
+
+.contactServicesboxdiv
+{
+    display: flex;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+  
+    word-wrap: break-word;
+    padding: 10px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #353535; */
+}
+
+.YourRequirements
+{
+ display: flex;
+ gap: 1rem;
+ flex-wrap: wrap;
+ }
+ 
+ .YourRequirements div{
+
+     margin: 0.5rem;
+     padding: 0.5rem;
+ }
+
 .contact-info-box .icon {
   display: inline-block;
   width: 65px;
@@ -5319,6 +5448,7 @@ Contact CSS
 }
 
 .contact-form {
+  margin-top: 3rem;
   background-color: #ffffff;
   text-align: center;
 }
@@ -5326,6 +5456,9 @@ Contact CSS
 .contact-form h2 {
   font-size: 36px;
   margin-bottom: 30px;
+}
+
+.contact-form span{ color: red;
 }
 
 textarea.form-control {
