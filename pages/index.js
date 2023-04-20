@@ -37,11 +37,11 @@ class DefaultHome2 extends Component {
 
               <div id='about'>  <About /> </div>  
 
-              <div id='about'>  <Team /> </div>  
+              <div id='team'>  <Team /> </div>  
 
                 <FunFacts />
 
-                <LatestNewsSlider />
+               <div id='blog'>   <LatestNewsSlider />  </div>
 
                 <CtaArea />
 
