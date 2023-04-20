@@ -63,11 +63,11 @@ class Navbar extends Component {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        
+                                            <a className="nav-link"   href ="#mainbanner" >
                                                 Home
                                             </a>
-                                        </Link>
+                                        
 
                                         {/* <ul className="dropdown-menu mega-dropdown-menu">
                                             <li className="nav-item">
@@ -138,11 +138,12 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
                                         </ul> */}
+
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/services">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="#services" >
+                                            <a  href="#services" className="nav-link"  >
                                                 Services
                                             </a>
                                         </Link>
@@ -181,8 +182,8 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="#pricing">
+                                            <a href="#pricing" className="nav-link" >
                                                 Pricing
                                             </a>
                                         </Link>

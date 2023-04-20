@@ -22,7 +22,7 @@ class Footer extends Component {
                                     </div>
 
                                     <p>
-                                        ZiggyFlow to providing our clients with exceptional customer service and support, ensuring that they have access to the resources they need to succeed onlin
+                                        ZiggyFlow to providing our clients with exceptional customer service and support, ensuring that they have access to the resources they need to succeed online
 
                                     </p>
 
@@ -71,11 +71,13 @@ class Footer extends Component {
                                                 <a>Services</a>
                                             </Link>
                                         </li>
-                                        <li>
+
+                                        {/* <li>
                                             <Link href="/portfolio">
                                                 <a>Portfolio</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
+
                                         <li>
                                             <Link href="/team">
                                                 <a>Team</a>

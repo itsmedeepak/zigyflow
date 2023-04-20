@@ -21,11 +21,11 @@ class DefaultHome2 extends Component {
             <>
                 <Navbar />
 
-                <MainBanner />
+                <div id='mainbanner'>  <MainBanner /> </div>
 
-                <Services />
+                <div id='services'>  <Services /> </div>
 
-                <PricingStyleTwo />
+               <div id='pricing'> <PricingStyleTwo /> </div>
 
                 <CtaAreaTwo />
 
@@ -35,9 +35,9 @@ class DefaultHome2 extends Component {
 
                 <Feedback />
 
-                <About />
+              <div id='about'>  <About /> </div>  
 
-                <Team />
+              <div id='about'>  <Team /> </div>  
 
                 <FunFacts />
 

@@ -28,22 +28,10 @@ class Contact extends Component {
                 <ContactForm />
 
 
-                 <div  className='contactservices'> 
-                <ContactServices/>
-                </div>
-
-                 <div  className='contactservices'> 
-                <ServicesWeProvide/>
-                </div>
+                
 
 
-                 <ProjectDetails />
-
-
-
-                {/* <div className="ptb-100">
-                    <Newsletter />
-                </div> */}
+                
 
                 <Footer/>
             </>
