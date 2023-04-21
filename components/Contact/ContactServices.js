@@ -61,7 +61,7 @@ const [idx, setidx] = useState('initialstyle');
       <div className="contactServicesbox">
 
         <div className={`contactServicesboxdiv`} id={idx} onClick={()=>setidx('b')}>
-          <BsFillFileTextFill size={50} />
+          <BsFillFileTextFill size={45} />
          <p>Startup/D2C Brand </p> 
 
          <style jsx>
@@ -85,7 +85,7 @@ const [idx, setidx] = useState('initialstyle');
         </div>
 
         <div className="contactServicesboxdiv" id={idx} onClick={()=>setidx('a')}>
-          <BsRocketTakeoffFill size={50} />
+          <BsRocketTakeoffFill size={45} />
         <p>   Existing/NewBuisness </p> 
 
         <style jsx>
@@ -94,6 +94,7 @@ const [idx, setidx] = useState('initialstyle');
               border: 0.2rem double green;
               border-radius: 2rem;
               background-color: orange
+             
             }
 
             p{
@@ -106,7 +107,7 @@ const [idx, setidx] = useState('initialstyle');
         </div>
 
         <div className="contactServicesboxdiv" id={idx} onClick={()=>setidx('c')} >
-          <MdCellWifi size={50} />
+          <MdCellWifi size={45} />
          <p> 
            Product/Tech-Companies </p>
 

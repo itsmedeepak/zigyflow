@@ -32,6 +32,26 @@ class PageBanner extends Component {
                      </div>
                  </div>
 
+            <style jsx>
+          {`
+            .d-table1{
+             border: 0.2rem double ;
+             color:white;
+              border-radius: 2rem;
+              background-color: #444448
+              
+
+
+            }
+
+            p{
+              color:white
+            }
+
+            
+
+          `} </style>
+
             
 
             </>
