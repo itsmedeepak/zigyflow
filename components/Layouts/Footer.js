@@ -21,26 +21,29 @@ class Footer extends Component {
                                         </Link>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>
+                                        Loremmbcb nc norem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                                    </p>
 
                                     <ul className="social-links">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/profile.php?id=100090961759875" target="_blank">
                                                 <i className="icofont-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank">
+                                            <a href="https://twitter.com/itsmeedepak" target="_blank">
                                                 <i className="icofont-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="linkedin.com" target="_blank">
+                                            <a href="https://www.linkedin.com/company/zigyflow/" target="_blank">
                                                 <i className="icofont-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/" target="_blank">
+                                            <a href="https://instagram.com/zigyflow?igshid=YmMyMTA2M2Y=" target="_blank">
                                                 <i className="icofont-instagram"></i>
                                             </a>
                                         </li> 
