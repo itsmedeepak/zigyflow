@@ -71,12 +71,12 @@ class BlogRightSidebar extends Component {
                                 {/* Post controls */}
                                 <div className="post-controls-buttons">
                                     <div>
-                                        <Link href="#">
+                                        <Link href="/">
                                             <a>Prev Post</a>
                                         </Link>
                                     </div>
                                     <div>
-                                        <Link href="#">
+                                        <Link href="/">
                                             <a>Next Post</a>
                                         </Link>
                                     </div>

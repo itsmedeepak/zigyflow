@@ -7,6 +7,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import 'react-image-lightbox/style.css';
 import '../styles/style.css';
 import '../styles/responsive.css';
+import { useEffect } from 'react';
 
 import App from 'next/app';
 import Head from 'next/head';
@@ -27,7 +28,7 @@ export default class MyApp extends App {
             this.timerHandle = 0;
         }
     }
-    
+
     render () {
         const { Component, pageProps } = this.props
 
