@@ -61,6 +61,7 @@ const ContactServices = () => {
                 border-radius: 8px;
                 box-shadow: 0 0 6px #000;
                 background-color: #ffa500;
+                cursor :pointer
               }
 
               p {
@@ -85,6 +86,7 @@ const ContactServices = () => {
                 border-radius: 8px;
                 box-shadow: 0 0 6px #000;
                 background-color: #ffa500;
+                cursor :pointer
               }
 
               p {
@@ -109,6 +111,7 @@ const ContactServices = () => {
                 border-radius: 8px;
                 box-shadow: 0 0 6px #000;
                 background-color: #ffa500;
+                cursor :pointer
               }
 
               p {
