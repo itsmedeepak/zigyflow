@@ -59,7 +59,10 @@ body {
  
  
 } */
-
+  #change{
+    border: 2px solid red;
+  }
+  
 h1, h2, h3, h4, h5, h6 {
   font-family: "Saira", sans-serif;
   color: #18181b;
@@ -4976,6 +4979,7 @@ Page Title CSS
   padding-top: 1.5rem;
   padding-bottom: 5rem;
   height: 0%;
+  /* margin: 1rem; */
   /* text-align: center; */
 }
 
@@ -4985,6 +4989,8 @@ Page Title CSS
   margin-top: 1rem;
   margin: auto;
   padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
     
 }
 
@@ -5327,6 +5333,7 @@ display: flex;
   /* display: flex; */
   flex-wrap: wrap;
   gap: 1rem;
+  margin: 3rem;
 }
 
 .contactServicesbox div

@@ -1,0 +1,41 @@
+.my-class {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-class > div {
+  width: 20%;
+  box-sizing: border-box;
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+}
+.my-class1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-class1 > div {
+  width: 18%;
+  box-sizing: border-box;
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+}
+
+.selected {
+  border: 2px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #000;
+  background-color: #FFA500;
+}
+
+
+@media screen and (max-width: 768px) {
+  .my-class > div {
+    width: 100%;
+  }
+  .my-class1 > div {
+    width: 100%;
+  }
+}

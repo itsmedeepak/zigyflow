@@ -5,10 +5,8 @@ import { MdCellWifi } from 'react-icons/md';
 
 // import styled from '../../styles/contactservices.module.css';
 import styled from 'styled-components';
-import styles from"../../styles/changeidx.module.css"
-import "../../styles/changeidx.module.css"
-
-
+import styles from '../../styles/changeidx.module.css';
+import '../../styles/changeidx.module.css';
 
 // const List = [
 //   {
@@ -36,100 +34,91 @@ import "../../styles/changeidx.module.css"
 //   },
 // ];
 
-
-  
- 
-
 const ContactServices = () => {
+  const [idx, setidx] = useState('initialstyle');
 
-const [idx, setidx] = useState('initialstyle');
+  // console.log(List[0].IconStyle.IconTitle);
 
- 
-
-
-  
-
- // console.log(List[0].IconStyle.IconTitle);
-
-   
   return (
     <>
       <div className="contactServices">
         <h2>Services We Provide</h2>
       </div>
-      
+
       <div className="contactServicesbox">
-
-        <div className={`contactServicesboxdiv`} id={idx} onClick={()=>setidx('b')}>
+        <div
+          className={`contactServicesboxdiv`}
+          id={idx}
+          onClick={() => setidx('b')}
+        >
           <BsFillFileTextFill size={45} />
-         <p>Startup/D2C Brand </p> 
+          <p>Startup/D2C Brand </p>
 
-         <style jsx>
-          {`
-            #b{
-             border: 0.2rem double green;
-              border-radius: 2rem;
-              background-color: orange
+          <style jsx>
+            {`
+              #b {
+                border: 2px solid #000;
+                border-radius: 8px;
+                box-shadow: 0 0 6px #000;
+                background-color: #ffa500;
+              }
 
-
-            }
-
-             p{
-              font-size: 0.75rem;
-            }
-
-          `}
-
-
-         </style>
+              p {
+                font-size: 0.75rem;
+              }
+            `}
+          </style>
         </div>
 
-        <div className="contactServicesboxdiv" id={idx} onClick={()=>setidx('a')}>
+        <div
+          className="contactServicesboxdiv"
+          id={idx}
+          onClick={() => setidx('a')}
+        >
           <BsRocketTakeoffFill size={45} />
-        <p>   Existing/NewBuisness </p> 
+          <p> Existing/NewBuisness </p>
 
-        <style jsx>
-          {`
-            #a{
-              border: 0.2rem double green;
-              border-radius: 2rem;
-              background-color: orange
-             
-            }
+          <style jsx>
+            {`
+              #a {
+                border: 2px solid #000;
+                border-radius: 8px;
+                box-shadow: 0 0 6px #000;
+                background-color: #ffa500;
+              }
 
-            p{
-              font-size: 0.75rem;
-            }
-
-          `}
-         </style>
-        
+              p {
+                font-size: 0.75rem;
+              }
+            `}
+          </style>
         </div>
 
-        <div className="contactServicesboxdiv" id={idx} onClick={()=>setidx('c')} >
+        <div
+          className="contactServicesboxdiv"
+          id={idx}
+          onClick={() => setidx('c')}
+        >
           <MdCellWifi size={45} />
-         <p> 
-           Product/Tech-Companies </p>
+          <p>Product/Tech-Companies </p>
 
-           <style jsx>
-          {`
-            #c{
-              border: 0.2rem double green;
-              border-radius: 2rem;
-              background-color: orange
-            }
+          <style jsx>
+            {`
+              #c {
+                border: 2px solid #000;
+                border-radius: 8px;
+                box-shadow: 0 0 6px #000;
+                background-color: #ffa500;
+              }
 
-            p{
-              font-size: 0.75rem;
-            }
-
-          `}
-         </style>
-
+              p {
+                font-size: 0.75rem;
+              }
+            `}
+          </style>
         </div>
-
       </div>
-{/* 
+      {/* 
       <div>
         {List.map((item, idx) => (
           <StyledItem color={idx === selectedIndex ? '#1bb953' : '#fff'}>
@@ -138,11 +127,8 @@ const [idx, setidx] = useState('initialstyle');
           </StyledItem>
         ))}
       </div> */}
-
     </>
   );
 };
-
-
 
 export default ContactServices;
