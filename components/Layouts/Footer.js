@@ -21,26 +21,25 @@ class Footer extends Component {
                                         </Link>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    {/* <p>
+                                        Loremmbcb nc norem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                                    </p> */}
 
                                     <ul className="social-links">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/profile.php?id=100090961759875" target="_blank">
                                                 <i className="icofont-facebook"></i>
                                             </a>
                                         </li>
+                                        
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="icofont-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="linkedin.com" target="_blank">
+                                            <a href="https://www.linkedin.com/company/zigyflow/" target="_blank">
                                                 <i className="icofont-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/" target="_blank">
+                                            <a href="https://instagram.com/zigyflow?igshid=YmMyMTA2M2Y=" target="_blank">
                                                 <i className="icofont-instagram"></i>
                                             </a>
                                         </li> 
@@ -59,22 +58,22 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="/">
                                                 <a>About</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services">
+                                            <Link href="/">
                                                 <a>Services</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/portfolio">
+                                            <Link href="/">
                                                 <a>Portfolio</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/team">
+                                            <Link href="/">
                                                 <a>Team</a>
                                             </Link>
                                         </li>
@@ -88,27 +87,27 @@ class Footer extends Component {
 
                                     <ul className="list">
                                         <li>
-                                            <Link href="/contact">
+                                            <Link href="/">
                                                 <a>Contact Us</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/pricing">
+                                            <Link href="/">
                                                 <a>Pricing</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/faq">
+                                            <Link href="/">
                                                 <a>Faq</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/privacy-policy">
+                                            <Link href="/">
                                                 <a>Privacy Policy</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/terms-conditions">
+                                            <Link href="/">
                                                 <a>Terms & Conditions</a>
                                             </Link>
                                         </li>
@@ -116,7 +115,7 @@ class Footer extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-sm-6">
+                            {/* <div className="col-lg-3 col-sm-6">
                                 <div className="single-footer-widget">
                                     <h3>Get in Touch</h3>
 
@@ -132,7 +131,7 @@ class Footer extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

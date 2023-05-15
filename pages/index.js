@@ -1,55 +1,53 @@
-import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/DefaultHomeTwo/MainBanner';
-import Services from '../components/DefaultHomeTwo/Services';
-import About from '../components/DefaultHomeTwo/About';
-import OurWorks from '../components/DefaultHomeTwo/OurWorks';
-import Feedback from '../components/Common/Feedback';
-import Team from '../components/Common/Team';
-import FunFacts from '../components/Common/FunFacts';
-import LatestNewsSlider from '../components/Common/LatestNewsSlider';
-import CtaArea from '../components/Common/CtaArea';
-import Partner from '../components/Common/Partner';
-import Footer from '../components/Layouts/Footer';
-import WorkProcess from '../components/DefaultHomeTwo/WorkProcess';
-import PricingStyleTwo from '../components/Pricing/PricingStyleTwo';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+import React, { Component } from "react";
+import Navbar from "../components/Layouts/Navbar";
+import MainBanner from "../components/DefaultHomeTwo/MainBanner";
+import Services from "../components/DefaultHomeTwo/Services";
+import About from "../components/DefaultHomeTwo/About";
+import OurWorks from "../components/DefaultHomeTwo/OurWorks";
+import Feedback from "../components/Common/Feedback";
+import Team from "../components/Common/Team";
+import FunFacts from "../components/Common/FunFacts";
+import LatestNewsSlider from "../components/Common/LatestNewsSlider";
+import CtaArea from "../components/Common/CtaArea";
+import Partner from "../components/Common/Partner";
+import Footer from "../components/Layouts/Footer";
+import WorkProcess from "../components/DefaultHomeTwo/WorkProcess";
+import PricingStyleTwo from "../components/Pricing/PricingStyleTwo";
+import CtaAreaTwo from "../components/Common/CtaAreaTwo";
+import Head from "next/head";
+
 class DefaultHome2 extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
+  render() {
+    return (
+      <>
+        <Navbar />
 
-                <MainBanner />
+        <MainBanner />
 
-                <Services />
+        <Services />
 
-                <PricingStyleTwo />
+        <PricingStyleTwo />
 
-                <CtaAreaTwo />
+        <CtaAreaTwo />
 
-                
+        <Feedback />
 
-                
+        <About />
 
-                <Feedback />
+        {/* <Team /> */}
 
-                <About />
+        <FunFacts />
 
-                <Team />
+        <LatestNewsSlider />
 
-                <FunFacts />
+        <CtaArea />
 
-                <LatestNewsSlider />
+        <Partner />
 
-                <CtaArea />
-
-                <Partner />
-
-                <Footer />
-            </>
-        );
-    }
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default DefaultHome2;
